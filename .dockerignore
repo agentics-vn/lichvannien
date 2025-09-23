@@ -4,3 +4,25 @@
 fly.toml
 Dockerfile
 
+# Environment files
+.env*
+*.env
+
+# Logs
+*.log
+logs/
+
+# Security files
+*.key
+*.pem
+*.crt
+*.p12
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
